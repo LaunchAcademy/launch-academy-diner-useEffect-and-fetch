@@ -23,13 +23,17 @@ end
 
 # API ENDPOINTS
 get "/api/v1/dishes" do
+  binding.pry
   dishes = read_dishes
 
   content_type :json
   json dishes
 end
 
+
+
 post "/api/v1/dishes" do
+  binding.pry
   current_dishes = read_dishes
 
   dish = JSON.parse(request.body.read)
@@ -37,6 +41,7 @@ post "/api/v1/dishes" do
 
   current_dishes << dish
   File.write("dishes.json", JSON.pretty_generate(current_dishes))
+  # binding.pry
 
   content_type :json
   status 201

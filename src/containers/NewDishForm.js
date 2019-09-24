@@ -19,6 +19,7 @@ const NewDishForm = (props) => {
   }
 
   const handleDishSubmit = (event) => {
+    // debugger
     event.preventDefault()
 
     props.addNewDish(newDish)
