@@ -9,12 +9,9 @@ const NewDishForm = (props) => {
   })
 
   const handleFieldChange = (event) => {
-    let fieldName = event.currentTarget.name
-    let userInput = event.currentTarget.value
-
     setNewDish({
       ...newDish,
-      [fieldName]: userInput
+      [event.currentTarget.name]: event.currentTarget.value
     })
   }
 
@@ -34,7 +31,6 @@ const NewDishForm = (props) => {
             content={newDish.dishName}
             handleChange={handleFieldChange}
           />
-
           <label> Description: </label>
           <TextField
             fieldName="dishDescription"

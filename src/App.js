@@ -6,9 +6,28 @@ import NewDishForm from "./containers/NewDishForm"
 const App = (props) => {
   const [dishes, setDishes] = useState([])
 
+  useEffect(() => {
+    fetch("api/v1/dishes")
+    .then((response) => {
+      return response.json()
+    })
+    .then((parsedDishData) => {
+      setDishes(parsedDishData)
+    })
+  }, [])
+
   const addNewDish = (newDishFormPayload) => {
-      setDishes([...dishes, newDishFormPayload])
-      // setDishes(dishes.concat(newlyCreatedDish))
+    fetch("api/v1/dishes", {
+      method: "POST",
+      body: JSON.stringify(newDishFormPayload)
+    })
+    .then((response) => {
+      return response.json()
+    })
+    .then((persistedDishWithAnId) => {
+      setDishes([...dishes, persistedDishWithAnId])
+      debugger
+    })
   }
 
   return(
