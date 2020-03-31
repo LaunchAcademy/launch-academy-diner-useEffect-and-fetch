@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-import TextField from "../components/TextField"
-
 const NewDishForm = (props) => {
   const [newDish, setNewDish] = useState({
     dishName: "",

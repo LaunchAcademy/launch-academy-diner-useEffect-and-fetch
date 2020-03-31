@@ -38,4 +38,30 @@
     "dishName": "Poached Eggs",
     "dishDescription": "You only get these if you check your email for updates every thirty minutes.",
     "id": 9
+  },
+  {
+    "dishName": "Kerrin's Carin Carrot Casserole",
+    "dishDescription": "sweet and savory yummm",
+    "id": 10
+  },
+  {
+    "dishName": "kerrins krystal kave of doom",
+    "dishDescription": "not tasty ",
+    "id": 11
+  },
+  {
+    "dishName": "kerrins keroageous kake",
+    "dishDescription": "s",
+    "id": 12
+  },
+  {
+    "dishName": "sdfsd",
+    "dishDescription": "sdf",
+    "id": 13
+  },
+  {
+    "dishName": "Kerrin casserole",
+    "dishDescription": "savory sweet",
+    "id": 14
   }
+]

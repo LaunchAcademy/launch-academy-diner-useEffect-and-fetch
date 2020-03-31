@@ -23,6 +23,7 @@ end
 
 # API ENDPOINTS
 get "/api/v1/dishes" do
+  # binding.pry
   # grab the dishe objects from our JSON file
   dishes = read_dishes
 
