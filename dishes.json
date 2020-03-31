@@ -38,25 +38,4 @@
     "dishName": "Poached Eggs",
     "dishDescription": "You only get these if you check your email for updates every thirty minutes.",
     "id": 9
-  },
-  {
-    "dishName": "Fam Jam Eggs and Ham",
-    "dishDescription": "If there is one dish you can always rely on, it's this one <3",
-    "id": 10
-  },
-  {
-    "dishName": "Fried Calamari Pasta",
-    "dishDescription": "get the pepto ready",
-    "id": 11
-  },
-  {
-    "dishName": "BAcon Bacon TAcos",
-    "dishDescription": "vegan friendly",
-    "id": 12
-  },
-  {
-    "dishName": "Potato",
-    "dishDescription": "just potato",
-    "id": 13
   }
-]
