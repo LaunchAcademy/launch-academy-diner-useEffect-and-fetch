@@ -22,6 +22,7 @@ end
 
 # API ENDPOINTS
 get "/api/v1/dishes" do
+  # binding.pry
   # retrieve dishes from json
   dishes = read_dishes
 
@@ -38,6 +39,7 @@ post "/api/v1/dishes" do
 
   # get the data from the POST request
   dish = JSON.parse(request.body.read)
+  # binding.pry
 
   # create a new id for the new dish
   dish["id"] = current_dishes.last["id"] + 1

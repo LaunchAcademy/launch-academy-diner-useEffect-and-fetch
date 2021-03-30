@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DishTile from '../components/DishTile';
+import DishTile from './DishTile';
 
 const DishList = (props) => {
 

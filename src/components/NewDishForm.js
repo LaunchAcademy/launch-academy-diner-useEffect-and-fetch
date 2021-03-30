@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import TextField from "../components/TextField"
+import TextField from "./TextField"
 
 const NewDishForm = (props) => {
   const [newDish, setNewDish] = useState({
@@ -27,20 +27,23 @@ const NewDishForm = (props) => {
   return(
     <div className='page border'>
       <h1>Add Your Favorite Dish</h1>
+      
         <form onSubmit={handleDishSubmit}>
           <label> Name: </label>
-          <TextField
-            fieldName="dishName"
-            content={newDish.dishName}
-            handleChange={handleFieldChange}
-          />
+            <input
+              type="text"
+              name="dishName"
+              value={newDish.dishName}
+              onChange={handleFieldChange}
+            />
 
           <label> Description: </label>
-          <TextField
-            fieldName="dishDescription"
-            content={newDish.dishDescription}
-            handleChange={handleFieldChange}
-          />
+            <input
+              type="text"
+              name="dishDescription"
+              value={newDish.dishDescription}
+              onChange={handleFieldChange}
+            />        
           <input type="submit"/>
         </form>
     </div>
