@@ -1,10 +1,10 @@
 {
-  "name": "my-pretty-unicorn-collector-usestate",
+  "name": "launch-academy-diner",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
+    "dev:client": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
     "test": "node_modules/.bin/jest",
     "test:dev": "node_modules/.bin/jest --notify --watch"
   },
@@ -20,7 +20,7 @@
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "jest": "~24.9.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.15yarn de.0",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.2",
     "webpack": "~2.3.1",
