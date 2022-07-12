@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
-
 const NewDishForm = (props) => {
   const [newDish, setNewDish] = useState({
-    dishName: "",
-    dishDescription: ""
+    name: "",
+    description: ""
   })
 
   const handleFieldChange = (event) => {
@@ -31,8 +30,8 @@ const NewDishForm = (props) => {
           <label> Name: 
             <input
               type="text"
-              name="dishName"
-              value={newDish.dishName}
+              name="name"
+              value={newDish.name}
               onChange={handleFieldChange}
             />
           </label>
@@ -41,8 +40,8 @@ const NewDishForm = (props) => {
           <label> Description: 
             <input
               type="text"
-              name="dishDescription"
-              value={newDish.dishDescription}
+              name="description"
+              value={newDish.description}
               onChange={handleFieldChange}
             />
           </label>

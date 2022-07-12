@@ -5,8 +5,8 @@ const DishTile = props => {
   return(
     <div>
       <div className="callout">
-        <h5> {props.dish.dishName} </h5>
-        <p> {props.dish.dishDescription} </p>
+        <h5> {props.name} </h5>
+        <p> {props.description} </p>
       </div>
     </div>
   )

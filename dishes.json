@@ -1,47 +1,67 @@
 [
   {
     "id": 2,
-    "dishName": "Papa Dan's Boneless Buffalo Wangs",
-    "dishDescription": "Back in 2012, Papa Dan had a dream. A dream to bring amazing Boneless Buffalo Wings to everyone regardless of their experience. That dream came true with Papa Dan's Boneless Buffalo Wangs."
+    "name": "Papa Dan's Boneless Buffalo Wangs",
+    "description": "Back in 2012, Papa Dan had a dream. A dream to bring amazing Boneless Buffalo Wings to everyone regardless of their experience. That dream came true with Papa Dan's Boneless Buffalo Wangs."
   },
   {
     "id": 3,
-    "dishName": "Disney Princess Pie",
-    "dishDescription": "Eating this homemade pie may inspire small woodland creatures to want to share your immediate vicinity.  Served with a side of MAGIC."
+    "name": "Disney Princess Pie",
+    "description": "Eating this homemade pie may inspire small woodland creatures to want to share your immediate vicinity.  Served with a side of MAGIC."
   },
   {
     "id": 4,
-    "dishName": "Professional Breakfast Sandwich",
-    "dishDescription": "Has turkey, an over-medium egg, monteray jack cheese, bacon, stone-ground mustard and good communication skills."
+    "name": "Professional Breakfast Sandwich",
+    "description": "Has turkey, an over-medium egg, monteray jack cheese, bacon, stone-ground mustard and good communication skills."
   },
   {
-    "dishName": "Metal Meatball Sub",
-    "dishDescription": "Even though eating a sub with actual metal in it would be TOTALLY METAL....this is just a really good meatball sub.",
+    "name": "Metal Meatball Sub",
+    "description": "Even though eating a sub with actual metal in it would be TOTALLY METAL....this is just a really good meatball sub.",
     "id": 5
   },
   {
-    "dishName": "Apples and Peanut Butter",
-    "dishDescription": "...that's it.... It's just wicked good....WHAT DO YOU WANT FROM US!?",
+    "name": "Apples and Peanut Butter",
+    "description": "...that's it.... It's just wicked good....WHAT DO YOU WANT FROM US!?",
     "id": 6
   },
   {
-    "dishName": "Biker Bad@$$ Blueberry Bancakes",
-    "dishDescription": "These are the pancakes you were looking for.",
+    "name": "Biker Bad@$$ Blueberry Bancakes",
+    "description": "These are the pancakes you were looking for.",
     "id": 7
   },
   {
-    "dishName": "Unicorn Omellette",
-    "dishDescription": "No, it is NOT made of unicorns, it's made BY unicorns.",
+    "name": "Unicorn Omellette",
+    "description": "No, it is NOT made of unicorns, it's made BY unicorns.",
     "id": 8
   },
   {
-    "dishName": "Poached Eggs",
-    "dishDescription": "You only get these if you check your email for updates every thirty minutes.",
+    "name": "Poached Eggs",
+    "description": "You only get these if you check your email for updates every thirty minutes.",
     "id": 9
   },
   {
-    "dishName": "Fam Jam Eggs and Ham",
-    "dishDescription": "If there is one dish you can always rely on, it's this one <3",
+    "name": "Fam Jam Eggs and Ham",
+    "description": "If there is one dish you can always rely on, it's this one <3",
     "id": 10
+  },
+  {
+    "name": "Quiche LoFang",
+    "description": "refined egg based pastry with herbs and spices ",
+    "id": 11
+  },
+  {
+    "name": "Ohad's Omelette ",
+    "description": "israeli omelette ",
+    "id": 12
+  },
+  {
+    "name": "Ryan's Randy Raspberry Tart",
+    "description": "its a very clean tart",
+    "id": 13
+  },
+  {
+    "name": "some dish",
+    "description": "tasty",
+    "id": 14
   }
 ]

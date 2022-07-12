@@ -23,19 +23,19 @@ end
 # API ENDPOINTS
 get "/api/v1/dishes" do
   # retrieve dishes from json
-  dishes = read_dishes
+  dishes =  JSON.parse(File.read("dishes.json"))
 
   # set response type to json for clarity
   content_type :json
 
   # send back a json response of dishes
-  json dishes
+  json(dishes)
 end
 
 post "/api/v1/dishes" do
   # grab the current dishes from the json file
   current_dishes = read_dishes
-
+  
   # get the data from the POST request
   dish = JSON.parse(request.body.read)
 
@@ -48,9 +48,9 @@ post "/api/v1/dishes" do
   File.write("dishes.json", JSON.pretty_generate(current_dishes))
 
   # send back the dish as a response
-  content_type :json
-  status 201
-  json dish
+  content_type(:json)
+  status(201)
+  json(dish)
 end
 
 # SINATRA VIEWS ROUTES
