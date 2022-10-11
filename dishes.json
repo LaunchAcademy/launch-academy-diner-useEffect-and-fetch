@@ -43,5 +43,25 @@
     "dishName": "Fam Jam Eggs and Ham",
     "dishDescription": "If there is one dish you can always rely on, it's this one <3",
     "id": 10
+  },
+  {
+    "dishName": "pasta",
+    "dishDescription": "my fav",
+    "id": 11
+  },
+  {
+    "dishName": "chili",
+    "dishDescription": "great in cold weather",
+    "id": 12
+  },
+  {
+    "dishName": "chili",
+    "dishDescription": "great in cold weather",
+    "id": 13
+  },
+  {
+    "dishName": "taco salad",
+    "dishDescription": "yummm",
+    "id": 14
   }
 ]

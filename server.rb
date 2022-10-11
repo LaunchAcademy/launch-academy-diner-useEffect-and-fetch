@@ -24,7 +24,7 @@ end
 get "/api/v1/dishes" do
   # retrieve dishes from json
   dishes = read_dishes
-
+# binding.pry
   # set response type to json for clarity
   content_type :json
 
@@ -35,9 +35,9 @@ end
 post "/api/v1/dishes" do
   # grab the current dishes from the json file
   current_dishes = read_dishes
-
   # get the data from the POST request
   dish = JSON.parse(request.body.read)
+  # binding.pry
 
   # create a new id for the new dish
   dish["id"] = current_dishes.last["id"] + 1

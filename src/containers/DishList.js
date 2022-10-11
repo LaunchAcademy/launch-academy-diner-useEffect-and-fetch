@@ -4,7 +4,7 @@ import DishTile from '../components/DishTile';
 
 const DishList = (props) => {
 
-  let dishTiles = props.dishes.map(dish => {
+  const dishTiles = props.dishes.map(dish => {
     return(
       <DishTile
         key={dish.id}
